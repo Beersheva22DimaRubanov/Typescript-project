@@ -20,5 +20,4 @@ export default class Container implements Shape{
     addShape(shape: Shape){
         this._shapes.push(shape)
     }
-    
 }
