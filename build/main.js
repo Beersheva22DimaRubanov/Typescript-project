@@ -1,9 +1,4 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var Rectangle_1 = __importDefault(require("./Rectangle"));
 var n = 10;
 n = 20;
 var num = 5;
@@ -45,9 +40,4 @@ function decipher(text, key) {
     }
     return arr1.join('');
 }
-var res = cipher("home", 10);
-console.log('Cipher: ' + res);
-console.log('Decipher: ' + decipher(res, 10));
-var shape = new Rectangle_1.default(3, 4);
-var width = shape.width;
 //# sourceMappingURL=main.js.map

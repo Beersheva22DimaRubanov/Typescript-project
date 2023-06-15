@@ -1,4 +1,3 @@
-import Rectangle from "./Rectangle";
 
 let n = 10;
 n = 20;
@@ -71,9 +70,9 @@ function decipher(text: string, key: number): string{
     //  }).join('');
 }
 
-const res: string = cipher("home", 10)
-console.log('Cipher: ' +  res)
-console.log('Decipher: ' + decipher(res, 10))
+// const res: string = cipher("home", 10)
+// console.log('Cipher: ' +  res)
+// console.log('Decipher: ' + decipher(res, 10))
 
-const shape: Rectangle = new Rectangle(3,4);
-let width = shape.width;
+// const shape: Rectangle = new Rectangle(3,4);
+// let width = shape.width;
